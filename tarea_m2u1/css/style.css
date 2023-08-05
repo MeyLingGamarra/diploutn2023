@@ -1,0 +1,39 @@
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+img{
+    border-radius: 195px 195px 195px 195px;
+    box-shadow: 5px 5px 15px 0px gray;
+}
+
+h2,
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(85, 83, 88);
+}
+
+ul,
+ol{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    color: rgb(81, 80, 80);
+}
+
+.parrafos{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    margin: 2%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 15px 15px 15px 0px rgb(138, 137, 137);
+    background: linear-gradient(70deg, rgb(185, 185, 210)30%, rgb(100, 100, 138)50%);
+    column-count: 3;
+}
+
+a:hover{
+    background-color: rgb(117, 124, 196);
+}
