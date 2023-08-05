@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(61, 59, 59);
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(85, 83, 88);
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(56, 56, 69);
+}
+
+ol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(81, 80, 80);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(81, 77, 77);
+    background-color: rgb(158, 158, 181);
+}
+
+a:hover{
+    background-color: rgb(117, 124, 196);
+}
