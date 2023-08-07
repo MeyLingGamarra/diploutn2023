@@ -1,0 +1,32 @@
+.cuadro{ /* los numeros */
+    color: white;
+    width: 50%;  /*se agranda todo el cuadro con los cuadros de colores */
+    /* height: 50%; */
+    border: 2px solid black; /* el marco del cuadro mas grande */
+    margin-left: 25%;  /*por X para la derecha */
+}
+
+.contenedor{
+    width: 25%;
+    margin-left: auto; /* los cuadraditos de colores van a la derecha */
+}
+
+.item1{
+    background-color: red;
+    font-size: 20px; /* en el tamaño de los numeros*/
+    padding: 50%; /* en el centro de los cuadraditos*/
+    /* width: 25px; */
+    
+}
+
+.item2{
+    background-color: blue;
+    font-size: 20px; /* en el tamaño de los numeros*/
+    padding: 50%; /* en el centro de los cuadraditos*/
+}
+
+.item3{
+    background-color: green;
+    font-size: 20px; /* en el tamaño de los numeros*/
+    padding: 50%; /* en el centro de los cuadraditos*/
+}
