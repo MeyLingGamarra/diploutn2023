@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondo.png);
+}
+
+header {
+    background-color: rgba(19, 18, 18, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#animal-list .animal-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;  /*Agregamos una transición suave */
+}
+
+#animal-list .animal-card:hover {
+    background-color: #f0f0f0; /* Cambiamos el color de fondo al pasar el mouse */
+}
+
+.animal-card img { /* se agrego recien*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.animal-card h3 { /* se agrego recien*/
+    color: #333;
+}
+
+.animal-card p { /* se agrego recien*/
+    color: #666;
+}
+
+#adoption-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#adoption-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#adoption-form input,
+#adoption-form select,
+#adoption-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#adoption-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /*Agregamos una transición suave */
+}
+
+#adoption-form input[type="submit"]:hover {
+    background-color: #555; /* Cambiamos el color de fondo al pasar el mouse */
+}
+
+#social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;  /*Agregamos una transición suave */
+}
+
+#social-links a:hover {
+    background-color: #555; /* Cambiamos el color de fondo al pasar el mouse */
+}
+
+#social-links img {
+    width: 50px; /* Establece el ancho deseado */
+    height: auto; /* Mantiene la proporción original ajustando automáticamente la altura */
+    max-width: 100%; /* Evita que la imagen se agrande más allá de su tamaño original */
+}
